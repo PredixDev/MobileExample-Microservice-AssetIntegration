@@ -1,5 +1,5 @@
-# MOBILE-ASSET-MICROSERVICE(v0.1)
-A sample micro-service which communicates with Predix-Assets service instance and pushes data to Predix-Mobile service instance which gets synced on devices running Predix mobile app.
+# MobileExample-Microservice-AssetIntegration(v0.1)
+A sample micro-service which communicates with Predix-Assets service instance and pushes data to Predix-Mobile service instance which gets synced on devices running Predix Mobile app.
 
 ## Configuration
 
