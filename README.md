@@ -51,4 +51,8 @@ node index.js | ./node_modules/.bin/bunyan # outputs nice looking logs in termin
 The above command will:
 
 * Fetch data from asset service every 5 second and pushes it to a document(`docid = username+'_predix_asset_'+PA_PREDIX_ZONE_ID`) in mobile-up service.
-* Starts an Express server {TODO: accept commands to make changes in asset service data}
+* Starts an Express server {TODO: accept commands to make changes in asset service data}  
+
+
+## [Sample Asset WebApp]
+[Sample WebApp]:https://github.com/PredixDev/MobileExample-WebApp-AssetIntegration
