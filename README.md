@@ -55,4 +55,4 @@ The above command will:
 
 
 ## [Sample Asset WebApp]
-[Sample WebApp]:https://github.com/PredixDev/MobileExample-WebApp-AssetIntegration
+[Sample Asset WebApp]:https://github.com/PredixDev/MobileExample-WebApp-AssetIntegration
