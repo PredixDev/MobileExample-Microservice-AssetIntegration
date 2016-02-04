@@ -1,17 +1,17 @@
 {
   "PORT": 8086,
 
-  "PA_PREDIX_ZONE_ID"   : "43bf717f-86a5-45da-9053-6651c00d1a99",
+  "PA_PREDIX_ZONE_ID"   : "XXXXXXXX-86a5-45da-9053-6651c00d1a99",
   "PA_URL_ASSET"        : "https://predix-asset.run.aws-usw02-pr.ice.predix.io/locomotives",
-  "PA_URL_UAA"          : "https://fcf1305d-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token",
-  "PA_USERNAME"         : "asset_client_3",
-  "PA_PASSWORD"         : "abc123",
+  "PA_URL_UAA"          : "https://XXXXXXXX-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token",
+  "PA_USERNAME"         : "asset_client_XXXXX",
+  "PA_PASSWORD"         : "XXXXXXXXXX",
   "DATA_REFRESH_TIME"   : 5,
 
-  "PM_EP_URL"           : "https://778517.run.aws-usw02-pr.ice.predix.io/",
-  "PM_USERNAME"         : "kamal.mann@ge.com",
-  "PM_PASSWORD"         : "abc123",
-  "PM_UAA_URL"          : "https://fcf1305d-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io",
+  "PM_EP_URL"           : "https://XXXXXXX.run.aws-usw02-pr.ice.predix.io/",
+  "PM_USERNAME"         : "XXXXXXX@ge.com",
+  "PM_PASSWORD"         : "XXXXXXXXXX",
+  "PM_UAA_URL"          : "https://XXXXXXX-XXXX-XXXX-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io",
   "WEB_APP_NAME"        : "pa-basic-app",
   "WEB_APP_VERSION"     : "0.0.1"
 

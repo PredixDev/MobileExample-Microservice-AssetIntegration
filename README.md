@@ -56,7 +56,7 @@ Above command will:
 * get oauth-token for Asset service.
 * get oauth-token for Mobile service.
 * fetch data from asset service every 5 second
-* create(update) a mobile service document(`docid = username+'_predix_asset_'+PA_PREDIX_ZONE_ID`) and assign it to a channel based on WEB-APP-NAME & WEB-APP-VERSION. Push this document into Mobile service.
+* create(update) a mobile service document(`docid = PM_USERNAME+'_predix_asset_'+PA_PREDIX_ZONE_ID`) and assign it to a channel based on WEB-APP-NAME & WEB-APP-VERSION. Push this document into Mobile service.
 * start an Express server {TODO: accept commands to make changes in asset service data}  
 
 
