@@ -53,11 +53,11 @@ node index.js | ./node_modules/.bin/bunyan # outputs nice looking logs in termin
 
 Above command will:
 
-* Gets oauth-token for Asset service.
-* Gets oauth-token for Mobile service.
-* Fetch data from asset service every 5 second
-* Create(update) a mobile service document(`docid = username+'_predix_asset_'+PA_PREDIX_ZONE_ID`) and assign it to a channel based on WEB-APP-NAME & WEB-APP-VERSION. Push this document into Mobile service.
-* Starts an Express server {TODO: accept commands to make changes in asset service data}  
+* get oauth-token for Asset service.
+* get oauth-token for Mobile service.
+* fetch data from asset service every 5 second
+* create(update) a mobile service document(`docid = username+'_predix_asset_'+PA_PREDIX_ZONE_ID`) and assign it to a channel based on WEB-APP-NAME & WEB-APP-VERSION. Push this document into Mobile service.
+* start an Express server {TODO: accept commands to make changes in asset service data}  
 
 
 ## [Sample Asset WebApp]
