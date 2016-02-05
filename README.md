@@ -59,7 +59,7 @@ Above command will:
 * create(update) a mobile service document(`docid = PM_USERNAME+'_predix_asset_'+PA_PREDIX_ZONE_ID`) and assign it to a channel based on WEB-APP-NAME & WEB-APP-VERSION. Push this document into Mobile service.
 * start an Express server {TODO: accept commands to make changes in asset service data}  
 
-_Note: This example service uses [random asset filters](https://github.com/PredixDev/MobileExample-Microservice-AssetIntegration/blob/master/lib/PAsset-Service.js#L41) to fetch different data and push this data to Mobile service. In real world applications sync-processor can poll DB/ASSET service and compare results with old results before pushing to Mobile service OR DB/ASSET service will send a notification (postgress/mysql triggers) to sync-processor of data changes and then sync-processor can push those relevant changes to Mobile service._
+_Note: This example service uses [random asset filters](https://github.com/PredixDev/MobileExample-Microservice-AssetIntegration/blob/master/lib/PAsset-Service.js#L41) to fetch different data and pushes this data to Mobile service. In real world applications, sync-processor can poll DB/ASSET service and compare results with old results before pushing to Mobile service OR DB/ASSET service will send a notification (postgress/mysql triggers) to sync-processor of data changes and then sync-processor can push those relevant changes to Mobile service._
 
 ## [Sample Asset WebApp]
 [Sample Asset WebApp]:https://github.com/PredixDev/MobileExample-WebApp-AssetIntegration
