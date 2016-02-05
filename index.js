@@ -54,13 +54,13 @@ function startServer()
 
 }
 
-// starts a deamon process which runs every t1-seconds
+// starts a deamon process which runs every t1-seconds - configured in config.json / manifest.yml
 function daemon()
 {
   var interval = pmConfig.requireConfig('DATA_REFRESH_TIME') * 1000;
   setInterval(function() {
     logger.info("Starting sync process ...");
-    paService.getAllAssets();
+    paService.getAllAssets(); //trying to get data from asset service. If found then it will be pushed to Mobile service.
     // TODO: update CB document
   }, interval);
 }
