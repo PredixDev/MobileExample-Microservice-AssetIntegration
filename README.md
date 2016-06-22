@@ -1,8 +1,8 @@
 # MobileExample-Microservice-AssetIntegration
-Here is a sample microservice that communicates with a Predix Assets service instance and pushes data to Predix Mobile service instance. The data gets synced on devices running a Predix Mobile app.  
+Here is a sample microservice that communicates with a Predix Asset service instance and pushes data to Predix Mobile service instance. The data gets synced on devices running a Predix Mobile app.  
 
 ## Before You Begin:
-It is assumed that you have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and [_Predix Asset service_](https://www.predix.io/docs/#aRPNr2R9) , and you have installed the _Predix Mobile pm command line tool_.  
+It is assumed that you have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and [_Predix Asset service_](https://www.predix.io/docs/#aRPNr2R9) , and you have installed the Predix Mobile pm command line tool.  
 
 ## Configuration
 
