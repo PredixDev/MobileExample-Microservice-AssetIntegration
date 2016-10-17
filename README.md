@@ -2,7 +2,7 @@
 Here is a sample microservice that communicates with a Predix Asset service instance and pushes data to Predix Mobile service instance. The data gets synced on devices running a Predix Mobile app.  This sample is not meant for production use. 
 
 ## Before You Begin:
-It is assumed that you have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and [_Predix Asset service_](https://www.predix.io/docs/#aRPNr2R9) , and you have installed the Predix Mobile pm command line tool. To get started, follow this documentation:
+It is assumed that you have running instances of [_Predix Mobile service_](https://www.predix.io/docs#rae4EfJ6) and [_Predix Asset service_](https://www.predix.io/docs/#aRPNr2R9), and you have installed the Predix Mobile pm command line tool. To get started, follow this documentation:
 * [Get Started with the Mobile Service and Mobile SDK] (https://www.predix.io/docs#rae4EfJ6) 
 * [Running the Predix Mobile Sample App] (https://www.predix.io/docs#EGUzWwcC)
 * [Creating a Mobile Hello World Web App] (https://www.predix.io/docs#DrBWuHkl) 
