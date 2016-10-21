@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+/*jslint node: true */
 'use strict';
 
 var config = {};
@@ -42,8 +44,8 @@ config.uaa_oauth_check_token_endpoint = "/check_token";
 
 // default webapp manifest file name:
 config.default_webapp_manifest_file_name = "webapp.json";
- 
+
  // default app manifest file name:
 config.default_app_manifest_file_name = "app.json";
- 
+
 module.exports = config;
