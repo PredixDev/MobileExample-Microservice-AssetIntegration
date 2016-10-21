@@ -17,7 +17,6 @@
     "config": "^1.19.0",
     "express": "^4.13.3",
     "preferences": "^0.2.1",
-    "request": "^2.53.0",
-    "winston-lm": "file:./local_modules/winston_master_branch"
+    "request": "^2.53.0"
   }
 }
