@@ -71,14 +71,15 @@ function daemon()
 (function()
 {
   startServer();
-  
+
   paService.authorize()
   .then(function(isAuthorized) {
     logger.trace("We are authorized with Asset and PM services, starting daemon worker...");
     daemon();
   })
   .catch(function (error) {
-    logger.error("Error while trying to authorize: "+error);
+    logger.fatal({error: error},"Error while autorizing!!! shutting down now :-( ");
+    process.exit(1);
   });
   //
 
