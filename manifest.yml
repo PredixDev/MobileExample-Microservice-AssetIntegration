@@ -16,6 +16,6 @@ applications:
     PM_EP_URL: https://XXXXXXX.run.aws-usw02-pr.ice.predix.io/
     PM_USERNAME: XXXXXXX@ge.com
     PM_PASSWORD: XXXXXXX
-    PM_UAA_URL: https://XXXXXXX-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io
+    PM_UAA_URL: https://XXXXXXX-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
     WEB_APP_NAME: pa-basic-app
     WEB_APP_VERSION: 0.0.1
