@@ -12,6 +12,7 @@ var logger        = Logging.logger();
 
 var paService     = require("./lib/PAsset-Service.js")(logger, pmConfig);
 var pmConfig      = require("./lib/PMConfig.js")();
+var pmUAA         = require("./lib/Auth.js")();
 
 var PORT          = 8080;
 
@@ -81,7 +82,5 @@ function daemon()
     logger.fatal({error: error},"Error while autorizing!!! shutting down now :-( ");
     process.exit(1);
   });
-  //
-
 
 })();
