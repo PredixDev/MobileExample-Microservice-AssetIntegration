@@ -16,6 +16,7 @@
     "cfenv": "^1.0.3",
     "config": "^1.19.0",
     "express": "^4.13.3",
+    "nano": "^6.2.0",
     "preferences": "^0.2.1",
     "request": "^2.53.0"
   }
