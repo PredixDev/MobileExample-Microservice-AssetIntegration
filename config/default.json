@@ -9,6 +9,7 @@
   "DATA_REFRESH_TIME"   : 5,
 
   "PM_EP_URL"           : "https://@@@@@@.run.aws-usw02-pr.ice.predix.io/",
+  "PM_BUCKET"           : "pm",
   "PM_USERNAME"         : "ben10@ge.com",
   "PM_PASSWORD"         : "ben10",
   "PM_UAA_URL"          : "https://@@@@@@@@-210a-4ea9-be27-8090e1ff8081.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token",
