@@ -28,6 +28,7 @@ Here is a simple configuration document:
 
   "MOBILE_UP": {
     "PM_EP_URL"           : "https://Mobile_up.run.aws-usw02-pr.ice.predix.io/", // Mobile service `api_gateway_short_route`
+    "PM_BUCKET"           : "pm", // bucket name used in cache.
     "PM_USERNAME"         : "mobileup_user@ge.com",
     "PM_PASSWORD"         : "********",
     "PM_UAA_URL"          : "https://predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token", // UAA url for Mobile services
